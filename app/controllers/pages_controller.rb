@@ -34,4 +34,7 @@ class PagesController < ApplicationController
 
   def terms
   end
+  
+  def how_it_works
+  end
 end

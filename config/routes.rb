@@ -12,6 +12,8 @@ Rails.application.routes.draw do
   get 'invoice-factoring' , to: 'pages#invoice_factoring'
 
   get 'line-of-credit' , to: 'pages#line_of_credit'
+  
+  get 'how-it-works' , to: 'pages#how_it_works'
 
   get 'partner' , to: 'pages#partner'
 
