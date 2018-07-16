@@ -19,7 +19,7 @@ Rails.application.routes.draw do
 
   get 'press' , to: 'pages#press'
 
-  get '/terms/privacy-policy' , to: 'pages#privacy'
+  get 'privacy' , to: 'pages#privacy'
 
   get 'support' , to: 'pages#support'
 
