@@ -3,6 +3,9 @@
     <center><%= image_tag avatar_url(current_user), class: "img-circle avatar-large" %></center>
     <br>
     <center class="small"><%= current_user.first_name %> <%= current_user.last_name %></center>
+    <% if !current_user.title.blank? %>
+      <center class="small"><%= current_user.title %></center>
+      <% end %>
     <% if current_user.phone_number.blank? %>
       <%= link_to "Add phone number to secure your account", edit_user_registration_path, class:"underline small" %>
     <% end %>
