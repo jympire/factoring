@@ -92,6 +92,26 @@ p {
   font-size: 14px;
 }
 
+.header-medium {
+  font-size: 48px;
+  margin-top: 0px;
+}
+
+.header-small {
+  font-size: 40px;
+}
+
+.vl {
+  border-left: 3px solid $border;
+  margin-left: 50%;
+  height: 100px;
+}
+
+.list {
+  font-size: 30px;
+  font-weight: bold;
+}
+
 
 /* SECTION */
 
